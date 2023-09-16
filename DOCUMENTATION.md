@@ -45,7 +45,7 @@ Endpoint: GET /api/{user_id}
     }
 
 #### Update Person Profile
-Endpoint: PATCH /api/{user_id}
+Endpoint: PATCH /api/{user_id}/
 
 ##### Request Format:
     {
@@ -59,7 +59,7 @@ Endpoint: PATCH /api/{user_id}
     }
 
 #### Delete Person Profile
-Endpoint: DELETE /api/{user_id}
+Endpoint: DELETE /api/{user_id}/
 
 ##### Request Format: 
     No request body required.
