@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'person',
+    'django_crontab',
 ]
 
 MIDDLEWARE = [
@@ -123,6 +124,10 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+CRONJOBS = [
+    ('* * * * *', 'person.tasks.my_scheduled_task'),
+]
 
 
 REST_FRAMEWORK = {
