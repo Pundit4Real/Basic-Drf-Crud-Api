@@ -6,5 +6,5 @@ from rest_framework import routers
 app_name = 'person'
 
 router = routers.DefaultRouter()
-router.register('person',PersonViewset,basename='PersonViewset')
+router.register('api',PersonViewset,basename='PersonViewset')
 
