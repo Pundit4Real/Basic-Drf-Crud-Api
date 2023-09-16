@@ -7,4 +7,3 @@ app_name = 'person'
 
 router = routers.DefaultRouter()
 router.register('api',PersonViewset,basename='PersonViewset')
-
