@@ -50,6 +50,8 @@ Before you begin, ensure you have met the following requirements:
 
 ### Database Setup
     python manage.py makemigrations
+..................................
+
     python manage.py migrate
 
 ### Running the API
